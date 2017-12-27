@@ -1,2 +1,1 @@
-# Haruka
-Install semua dulu
+sai
