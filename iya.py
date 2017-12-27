@@ -18,20 +18,9 @@ cl = LINETCR.LINE()
 cl.login(token="EnllgadhAeBzsgTLpJu2.Zm4gXz6MY8xdnV92S49yaG.hFGzNmmdu/2K1/0y2j2R9d3kFi9Jx8r71+9t/qj5fys=")
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(token="EnMJMFgBJ3cEt1xraKU4.AbZfX80renrInaDEsR0v1a.t9hmWm5jzoabiOpUJ5AAWDDDr4SxrePW+3ranmvKXmc=")
-ki.loginResult()
-
-kk = LINETCR.LINE()
-kk.login(token="EnNxXQwSecectsEAlQzb.672la4CfyuJmLCgFJdKosW.+BS1ivQK6xiA3sGlN4+T51p7vKa5GdKWOAjsVn9AAy4=")
-kk.loginResult()
 
 
-ku = kb = cl
-
-kc = ks = ko = ki
-
-ke = ka = ku = kk
+cl
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -284,70 +273,10 @@ helpMessage= """\n
 [_namabot join] Invite Bot
 [Bye _namabot]  Leave Bot
 🔘Turn off bots🔘
-●▬▬▬▬๑۩Special Thanks۩๑▬▬▬▬▬●
-P̸͟͞O̸͟͞W̸͟͞E̸͟͞R̸͟͞ B̸͟͞Y̸͟͞ T̸͟͞C̸͟͞R̸͟͞
-Edited̸͟͞ by A̸͟͞C̸͟͞I̸͟͞L̸͟͞A̸͟͞R̸͟͞D̸͟͞
-   ●▬▬▬▬๑۩FuckMyBot۩๑▬▬▬▬▬●
 
 """
 
-textspeech= """╔═════════════════
-║  			TEXT TO SPEECH
-╠═════════════════
-╠➩ 'af' : 'Afrikaans'
-╠➩ 'sq' : 'Albanian'
-╠➩ 'ar' : 'Arabic'
-╠➩ 'hy' : 'Armenian'
-╠➩ 'bn' : 'Bengali'
-╠➩ 'ca' : 'Catalan'
-╠➩ 'zh' : 'Chinese'
-╠➩ 'zhcn' : 'Chinese (Mandarin/China)'
-╠➩ 'zhtw' : 'Chinese (Mandarin/Taiwan)'
-╠➩ 'zhyue' : 'Chinese (Cantonese)'
-╠➩ 'hr' : 'Croatian'
-╠➩ 'cs' : 'Czech'
-╠➩ 'da' : 'Danish'
-╠➩ 'nl' : 'Dutch'
-╠➩ 'en' : 'English'
-╠➩ 'enau' : 'English (Australia)'
-╠➩ 'enuk' : 'English (United Kingdom)'
-╠➩ 'enus' : 'English (United States)'
-╠➩ 'eo' : 'Esperanto'
-╠➩ 'fi' : 'Finnish'
-╠➩ 'fr' : 'French'
-╠➩ 'de' : 'German'
-╠➩ 'el' : 'Greek'
-╠➩ 'hi' : 'Hindi'
-╠➩ 'hu' : 'Hungarian'
-╠➩ 'is' : 'Icelandic'
-╠➩ 'id' : 'Indonesian'
-╠➩ 'it' : 'Italian'
-╠➩ 'jp' : 'Japanese'
-╠➩ 'km' : 'Khmer (Cambodian)'
-╠➩ 'ko' : 'Korean'
-╠➩ 'la' : 'Latin'
-╠➩ 'lv' : 'Latvian'
-╠➩ 'mk' : 'Macedonian'
-╠➩ 'no' : 'Norwegian'
-╠➩ 'pl' : 'Polish'
-╠➩ 'pt' : 'Portuguese'
-╠➩ 'ro' : 'Romanian'
-╠➩ 'ru' : 'Russian'
-╠➩ 'sr' : 'Serbian'
-╠➩ 'si' : 'Sinhala'
-╠➩ 'sk' : 'Slovak'
-╠➩ 'es' : 'Spanish'
-╠➩ 'eses' : 'Spanish (Spain)'
-╠➩ 'esus' : 'Spanish (United States)'
-╠➩ 'sw' : 'Swahili'
-╠➩ 'sv' : 'Swedish'
-╠➩ 'ta' : 'Tamil'
-╠➩ 'th' : 'Thai'
-╠➩ 'tr' : 'Turkish'
-╠➩ 'uk' : 'Ukrainian'
-╠➩ 'vi' : 'Vietnamese'
-╠➩ 'cy' : 'Welsh'
-╚═════════════════
+textspeech= """
 """
 
 Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
@@ -361,23 +290,14 @@ Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
 [No Joinned]
 -- Joinn on/off
 """
-KAC=[cl,kk,ke,kc,kb,ka]
-DEF=[ka,ki,ks,ko,ku,cl,kk,ke,kc,kb,ka]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = ks.getProfile().mid
-Emid = ka.getProfile().mid
-Fmid = kb.getProfile().mid
-Gmid = ko.getProfile().mid
-Hmid = ke.getProfile().mid
-Imid = ku.getProfile().mid
 
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u5427d8047ab127f5e237eaedd1f0b93b","uab1ca173166a362c69ef62d420f9f784"]
-admin=["u5427d8047ab127f5e237eaedd1f0b93b","uab1ca173166a362c69ef62d420f9f784"]
-creator=["u5427d8047ab127f5e237eaedd1f0b93b","uab1ca173166a362c69ef62d420f9f784"]
+
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,""]
+admin=[""]
+creator=[""]
 wait = {
     'contact':False,
     'autoJoin':True,
